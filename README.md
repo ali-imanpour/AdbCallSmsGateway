@@ -6,7 +6,7 @@ incompatibility with terminal via some languages such as Golang.
 
 # Usage
 
-1. Install apk file on your device and give needed permissions.
+1. Install [apk file](https://github.com/ali-imanpour/AdbCallSmsGateway/releases/download/v1.0.0/app-debug.apk) on your device and give needed permissions.
 2. Connect your phone to computer via USB and enabled ADB in developer settings.
 3. Install ADB on computer. `sudo apt install adb`
 
