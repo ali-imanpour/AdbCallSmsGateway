@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CallSmsGateway</string>
+    <string name="intro">
+        This app is for calling number and send sms through adb. \n
+        Official adb interface for calling and sending sms is not working on all devices, and has some
+        incompatibility with terminal via some languages such as Golang.
+        \n\n
+        to call use in terminal\n\n
+        adb shell am start -n imanpour.ali.callsmsgateway/imanpour.ali.callsmsgateway.MainActivity -e cmd \'call\' -e phone \'123456789\'
+        \n\n\n
+        to send sms use in terminal \n\n
+        adb shell am start -n imanpour.ali.callsmsgateway/imanpour.ali.callsmsgateway.MainActivity -e cmd \'sendSMS\' -e phone \'123456789\' -e message \'text message\'
+
+        \n\n
+        be sure to give all needed permissions in app settings.
+
+
+    </string>
+</resources>
